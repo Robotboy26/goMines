@@ -15,7 +15,7 @@ import (
 type Settings struct {
     Rows int `json:"rows"`
     Cols int `json:"cols"`
-    MinePersentage int `json:"minePersentage"`
+    MinePercentage int `json:"minePercentage"`
     numMines int
     // Colors
     CursorColor string `json:"cursorColor"`
@@ -54,7 +54,7 @@ func NewMinesweeper(settings *Settings) *Minesweeper {
         ms.grid[i] = make([]Cell, settings.Cols)
     }
     ms.settings = settings
-    ms.settings.numMines = (settings.Rows * settings.Cols) / settings.MinePersentage
+    ms.settings.numMines = int(float64(settings.Rows * settings.Cols) * (float64(settings.MinePercentage) / 100))
     ms.placeMines()
     ms.flags = settings.numMines
     ms.calculateAdjacent()

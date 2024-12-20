@@ -37,7 +37,7 @@ Available options:
 | ---- | ----------- | ------- | ---------- |
 | rows | int | 20 | The vertical height of the game field |
 | cols | int | 30 | The horizontal height of the game field |
-| minePersentage | int | "#00BFFF" | The persentage of squares that will have mines |
+| minePercentage | int | 10 | The percentage of squares that will have mines |
 | cursorColor | string | "#FF0000" | The hex of the color for the cursor ' * ' |
 | mineColor | string | "#FF0000" | The hex of the color for the mines |
 | flagColor | string | "#00FFEE" | The hex of the color for the flags |

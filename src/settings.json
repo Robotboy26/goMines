@@ -1,7 +1,7 @@
 {
     "rows": 20,
     "cols": 30,
-    "minePersentage": 15,
+    "minePercentage": 10,
     "cursorColor": "#00BFFF",
     "mineColor": "#FF0000",
     "flagColor": "#00FFEE",
