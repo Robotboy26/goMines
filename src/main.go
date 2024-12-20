@@ -239,7 +239,7 @@ func (ms *Minesweeper) display() string {
                 case cell.adjacent == 1:
                     display += fmt.Sprintf(" [%s]%d[white] ", ms.settings.FewAdjacentMinesColor, cell.adjacent)
                 case cell.adjacent == 2:
-                    display += fmt.Sprintf(" [%s]%d[white] ", ms.settings.FewAdjacentMinesColor, cell.adjacent)
+                    display += fmt.Sprintf(" [%s]%d[white] ", ms.settings.MediumAdjacentMinesColor, cell.adjacent)
                 case cell.adjacent == 3:
                     display += fmt.Sprintf(" [%s]%d[white] ", ms.settings.MediumAdjacentMinesColor, cell.adjacent)
                 case cell.adjacent >= 4:

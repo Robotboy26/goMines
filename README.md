@@ -41,8 +41,8 @@ Available options:
 | cursorColor | string | "#FF0000" | The hex of the color for the cursor ' * ' |
 | mineColor | string | "#FF0000" | The hex of the color for the mines |
 | flagColor | string | "#00FFEE" | The hex of the color for the flags |
-| fewAdjacentMinesColor | string | "#F6EB61" | The hex of the color for the numbers of 1 or 2 |
-| mediumAdjacentMinesColor | string | "#FF7F50" | The hex of the color for the number 3 |
+| fewAdjacentMinesColor | string | "#F6EB61" | The hex of the color for the number 1 |
+| mediumAdjacentMinesColor | string | "#FF7F50" | The hex of the color for the numbers 2 and 3 |
 | highAdjacentMinesColor | string | "#FF4500" | The hex of the color for the numbers 4 or greater |
 | updateAdjacentOnFlag | bool | false | An assistance feature that will decrement the mine adjacency number when a flag is placed |
 | autoRevealedColor | string | "#C0C0C0" | These squares can be revealed in the same way that normal sqaures can and are here to prevent an accidently placed flag from reveiling a mine and trigger a game end |
