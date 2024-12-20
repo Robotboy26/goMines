@@ -1,0 +1,13 @@
+{
+    "rows": 20,
+    "cols": 30,
+    "minePersentage": 15,
+    "cursorColor": "#00BFFF",
+    "mineColor": "#FF0000",
+    "flagColor": "#00FFEE",
+    "fewAdjacentMinesColor": "#F6EB61",
+    "mediumAdjacentMinesColor": "#FF7F50",
+    "highAdjacentMinesColor": "#FF4500",
+    "updateAdjacentOnFlag": false,
+    "autoRevealedColor": "#C0C0C0"
+}
